@@ -67,6 +67,10 @@ hr {
     border-bottom-left-radius: 1rem;
 }
 
+.projectsnav{
+    background-color: var(--primary-color);
+}
+
 .navigation h1{
     margin-top: 0;
     font-size: 35px;
