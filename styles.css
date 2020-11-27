@@ -103,6 +103,30 @@ font-size:2.4em
     font-weight: bold;
 }
 
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.nav .nav-pills {
+    text-align: right;
+}
+
+.nav .link {
+    color: white;
+}
+
+.nav .link-active {
+    font-weight: bold;
+}
+
+
+
+
 /** header **/
 
 
@@ -160,6 +184,17 @@ font-size:2.4em
 }
 
 .hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.project-heading{
+    text-align: center;
+    color:var(--dark-color);
+    font-weight: bold;
+    font-size:40px;
+}
+
+.hero .project-heading .heading-inverted {
     color: var(--primary-color);
 }
 
