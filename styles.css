@@ -1,293 +1,284 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
 :root {
-    --primary-color: #41b0bf;
-    --dark-color: #4B5563;
-    --off-white: #F3F4F6;
+  --primary-color: #41b0bf;
+  --dark-color: #4b5563;
+  --off-white: #f3f4f6;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 hr {
-    margin: 2rem 0rem;
+  margin: 2rem 0rem;
 }
 
 /** container **/
 .container {
-    padding: 0rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .container-center {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 /** links **/
 .link {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-   
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 .link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-    ;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
 }
 
 /** lists **/
 
 .list-non-bullet {
-    list-style: none;
+  list-style: none;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
 /** navigation **/
 
 .navigation {
-    background: url('https://akshaysaini.in/img/clouds.png');
-    background-repeat: repeat;
-    background-size: contain;
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+  background: url("https://akshaysaini.in/img/clouds.png");
+  background-repeat: repeat;
+  background-size: contain;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .projectsnav {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .navigation h1 {
-    margin-top: 0;
-    font-size: 35px;
-    text-align: center;
-    font-family: 'Sacramento', cursive !important;
+  margin-top: 0;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Sacramento", cursive !important;
 }
 
 span.title {
-    font-family: 'Sacramento', cursive !important;
-    text-transform: none;
-    font-weight: 400;
-    color: #fff;
-    font-size: 2.4em
+  font-family: "Sacramento", cursive !important;
+  text-transform: none;
+  font-weight: 400;
+  color: #fff;
+  font-size: 2.4em;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .navigation .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 
 .navigation .link {
-    color: white;
+  color: white;
 }
 
 .navigation .link-active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nav {
-    background-color: var(--primary-color);
-    padding: 1rem;
+  background-color: var(--primary-color);
+  padding: 1rem;
 }
 
 .nav .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 
 .nav .link {
-    color: white;
+  color: white;
 }
 
 .nav .link-active {
-    font-weight: bold;
+  font-weight: bold;
 }
-
-
-
 
 /** header **/
 
-
 .row {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 62.5em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
 }
 
 .aboutme {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .flex-child-1 {
-    flex: 1;
+  flex: 1;
 }
 
 .flex-child-2 {
-    flex: 2
+  flex: 2;
 }
 
 .hero {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .hero .description {
-    color: #838383;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    font-size: 21px;
-    text-align: justify;
-    line-height: 1.6;
-
+  color: #838383;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 21px;
+  text-align: justify;
+  line-height: 1.6;
 }
 
 .hero .hero-img {
-    padding-top: 2em;
-    border-radius: 50%;
-    width: 82%;
-    display: inline;
-
+  padding-top: 2em;
+  border-radius: 50%;
+  width: 82%;
+  display: inline;
 }
 
 .hero .hero-heading {
-    font-size: 50px;
-    font-weight: 100;
-    padding-top: 1rem;
-    color: var(--dark-color);
+  font-size: 81px;
+  font-weight: 100;
+  padding-top: 1rem;
+  color: var(--dark-color);
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .project-heading {
-    text-align: center;
-    color: var(--dark-color);
-    font-weight: bold;
-    font-size: 40px;
+  text-align: center;
+  color: var(--dark-color);
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .hero .project-heading .heading-inverted {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 /** section **/
 
 .section {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .section h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .ow {
-    background-color: var(--off-white);
+  background-color: var(--off-white);
 }
 
 /** footer **/
 
 .footer {
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
-    color: white
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
 }
 
 .footer .link {
-    color: white;
+  color: white;
 }
 
 .footer .footer-header {
-    font-weight: bold;
-    font-size: large;
+  font-weight: bold;
+  font-size: large;
 }
 
 .footer ul {
-    padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
 .fa-linkedin-square {
-    font-size: 3em !important;
-    /* color: #287bbc; */
+  font-size: 3em !important;
+  /* color: #287bbc; */
 }
 
 .fa-twitter {
-    font-size: 3em !important;
-    color: var(--primary-color)
+  font-size: 3em !important;
+  color: var(--primary-color);
 }
 
 .fa-github {
-    font-size: 3em !important;
-    color: var(--primary-color)
+  font-size: 3em !important;
+  color: var(--primary-color);
 }
 
 .fa-linkedin-square {
-    font-size: 3em !important;
-    color: var(--primary-color);
+  font-size: 3em !important;
+  color: var(--primary-color);
 }
 
-@media only screen and (max-width:64em) {
-    .navigation {
-        background: var(--primary-color);
-        padding-bottom: 30px;
-        padding-top: 0px;
-    }
+@media only screen and (max-width: 64em) {
+  .navigation {
+    background: var(--primary-color);
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
 }
 
 section.sayhello {
-    background: #fff;
-    position: relative;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 0px;
-    border-right: 20px solid white;
-    border-left: 20px solid white;
+  background: #fff;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  border-right: 20px solid white;
+  border-left: 20px solid white;
 }
 
-
 .footTitle {
-    font-family: 'Sacramento', cursive;
-    text-transform: none;
-    font-weight: 400;
-    color: #41b0bf !important;
-    font-size: 2.8em !important;
-    text-align: center;
-    margin-top: 0;
+  font-family: "Sacramento", cursive;
+  text-transform: none;
+  font-weight: 400;
+  color: #41b0bf !important;
+  font-size: 2.8em !important;
+  text-align: center;
+  margin-top: 0;
 }
 
 .madewithlove {
-    text-align: center;
-    margin-top: -43px;
+  text-align: center;
+  margin-top: -43px;
 }
 
 .fa-heart {
-    color: red;
+  color: red;
 }
